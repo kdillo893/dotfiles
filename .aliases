@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Always use color output for `ls`
-alias ls="command ls ${colorflag}"
+alias ls="command ls --color=auto"
 
 # copy the contents of a file to clipboard:
 alias copy="xclip -sel c < "
