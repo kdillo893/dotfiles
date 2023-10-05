@@ -1,3 +1,18 @@
+#ignore all files/dirs that aren't . files
+*
+!.*
+
+#ignore all directories
+*/
+
+#ignore any "history" files
+*-history
+*_history
+.*hist*
+
+#ignore steam
+.steam*
+
 # Compiled Python files
 *.pyc
 
@@ -12,3 +27,10 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+
+#random files
+.Xauthority
+.zcompdump
+.yarnrc
+
