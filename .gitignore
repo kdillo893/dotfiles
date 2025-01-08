@@ -10,6 +10,9 @@
 *_history
 .*hist*
 
+#wget hosts file (i don't think I care)
+.wget-hsts
+
 #viminfo is kinda included in history
 .viminfo
 
