@@ -1,5 +1,11 @@
 [user]
 	email = kdillo893@gmail.com
 	name = Kevin Dillon
+	signingkey = D3CC79AB51064EC642AD842C3BB166C556F072C7
 [core]
 	autocrlf = input
+[pull]
+	rebase = false
+	ff = only
+[commit]
+	gpgsign = true

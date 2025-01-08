@@ -10,6 +10,9 @@
 *_history
 .*hist*
 
+#viminfo is kinda included in history
+.viminfo
+
 #ignore steam
 .steam*
 
@@ -28,9 +31,7 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-
 #random files
 .Xauthority
 .zcompdump
 .yarnrc
-
