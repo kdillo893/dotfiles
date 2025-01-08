@@ -3,7 +3,7 @@
 !.*
 
 #ignore all directories
-*/
+**/
 
 #ignore any "history" files
 *-history
